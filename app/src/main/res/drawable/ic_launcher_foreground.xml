@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The pin mark, scaled into the adaptive icon's safe zone. Also used as the themed (monochrome) icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="2.6"
+        android:scaleY="2.6"
+        android:translateX="22.8"
+        android:translateY="22.8">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M12,2C8.13,2 5,5.13 5,9c0,5.25 7,13 7,13s7,-7.75 7,-13C19,5.13 15.87,2 12,2zM12,5.4C12.45,7.75 13.25,8.55 15.6,9C13.25,9.45 12.45,10.25 12,12.6C11.55,10.25 10.75,9.45 8.4,9C10.75,8.55 11.55,7.75 12,5.4z" />
+    </group>
+</vector>

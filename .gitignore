@@ -1,0 +1,24 @@
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Gradle / Android
+.gradle/
+.kotlin/
+build/
+local.properties
+captures/
+
+# Signing: never commit keys or their passwords
+*.jks
+*.keystore
+keystore.properties
+
+# Build outputs (the APK is published through GitHub Releases)
+*.apk
+*.aab
+
+# Local signing material
+keystore/

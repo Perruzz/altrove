@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Static indigo palette, used before Android 12. Newer versions follow the wallpaper (values-v31). -->
+<resources>
+    <color name="window_background">#FCF8FF</color>
+
+    <color name="widget_idle_background">#F2EFFA</color>
+    <color name="widget_idle_icon_background">#4A55B9</color>
+    <color name="widget_idle_icon">#FFFFFF</color>
+    <color name="widget_idle_title">#1B1B21</color>
+    <color name="widget_idle_subtitle">#46464F</color>
+
+    <color name="widget_active_background">#4A55B9</color>
+    <color name="widget_active_icon_background">#DFE0FF</color>
+    <color name="widget_active_icon">#313C9F</color>
+    <color name="widget_active_title">#FFFFFF</color>
+    <color name="widget_active_subtitle">#DFE0FF</color>
+
+    <color name="widget_ripple">#29000000</color>
+</resources>

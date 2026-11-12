@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Altrove</string>
+    <string name="tagline">Be somewhere else, five minutes at a time.</string>
+
+    <!-- Destination -->
+    <string name="destination_title">Destination</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude_example" translatable="false">41.8902</string>
+    <string name="longitude_example" translatable="false">12.4922</string>
+    <string name="latitude_error">A number between −90 and 90</string>
+    <string name="longitude_error">A number between −180 and 180</string>
+    <string name="destination_tip">Tip: paste a pair like “41.8902, 12.4922” into either field.</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+
+    <!-- One-time setup -->
+    <string name="setup_title">One-time setup</string>
+    <string name="setup_mock_body">Android only lets the app picked as “mock location app” move the device position. Open Developer options and select Altrove.</string>
+    <string name="setup_mock_action">Open Developer options</string>
+    <!-- Followed by setup_developer_link, which ends the sentence as a tappable link. -->
+    <string name="setup_developer_hint">No Developer options on your phone? Turn them on first: tap “Build number” seven times in</string>
+    <string name="setup_developer_link">Settings › About phone</string>
+    <string name="setup_permissions_both">Two optional permissions make it better. Notifications show the countdown. Location access lets Google Play services hold your spot steadily in apps like Google Maps: Altrove itself never reads your real position.</string>
+    <string name="setup_permissions_notifications">Optional: allow notifications to see the countdown and stop a session from anywhere.</string>
+    <string name="setup_permissions_location">Optional: allow location access so Google Play services holds your spot steadily in apps like Google Maps. Altrove itself never reads your real position.</string>
+    <string name="setup_permissions_action">Allow</string>
+    <string name="setup_permissions_skip">Not now</string>
+
+    <!-- Session -->
+    <string name="status_idle_title">Real position</string>
+    <string name="status_idle_body">Tap the widget on your home screen to be at your destination for 5 minutes.</string>
+    <string name="status_idle_body_no_destination">Save a destination first.</string>
+    <string name="status_idle_body_setup">Finish the setup above first.</string>
+    <string name="status_active_title">You are elsewhere</string>
+    <string name="status_active_body">At %1$s. Your real position comes back on its own.</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <string name="add_widget">Add the widget to the home screen</string>
+    <string name="footnote">Altrove uses Android’s official mock-location feature. Apps that check whether a position is mocked can still tell.</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Tap to move your GPS position to the saved destination for 5 minutes.</string>
+    <string name="widget_setup">Tap to set up</string>
+    <string name="widget_sample_destination" translatable="false">41.8902° N\n12.4922° E</string>
+    <string name="widget_idle_description">Altrove. Tap to be at %1$s for 5 minutes.</string>
+    <string name="widget_setup_description">Altrove. Tap to finish the setup.</string>
+    <string name="widget_active_description">Altrove is active. Tap to go back to your real position.</string>
+
+    <!-- Notification -->
+    <string name="notification_channel">Active session</string>
+    <string name="notification_channel_description">Shown while your position is moved elsewhere.</string>
+    <string name="notification_title">You are elsewhere</string>
+    <string name="notification_text">%1$s · your real position comes back when the timer ends</string>
+
+    <string name="toast_not_mock_app">Pick Altrove as mock location app first</string>
+    <string name="toast_no_destination">Save a destination in Altrove first</string>
+</resources>

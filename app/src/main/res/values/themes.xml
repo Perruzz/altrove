@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The UI is Compose; this only styles the window before the first frame. -->
+    <style name="Theme.Altrove" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.Altrove.Title" parent="android:Widget.TextView">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">google-sans-medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.Altrove.Countdown" parent="Widget.Altrove.Title">
+        <item name="android:fontFeatureSettings">tnum</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Two lines: latitude over longitude, so even a narrow 2x1 widget shows both in full. -->
+    <style name="Widget.Altrove.Subtitle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">google-sans-text</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

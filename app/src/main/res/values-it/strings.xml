@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Altrove, cinque minuti alla volta.</string>
+
+    <!-- Destination -->
+    <string name="destination_title">Destinazione</string>
+    <string name="latitude">Latitudine</string>
+    <string name="longitude">Longitudine</string>
+    <string name="latitude_error">Un numero tra −90 e 90</string>
+    <string name="longitude_error">Un numero tra −180 e 180</string>
+    <string name="destination_tip">Suggerimento: incolla una coppia come «41.8902, 12.4922» in uno dei due campi.</string>
+    <string name="save">Salva</string>
+    <string name="saved">Salvato</string>
+
+    <!-- One-time setup -->
+    <string name="setup_title">Configurazione iniziale</string>
+    <string name="setup_mock_body">Android permette di spostare la posizione solo all’app scelta come «app di posizione fittizia». Apri le Opzioni sviluppatore e seleziona Altrove.</string>
+    <string name="setup_mock_action">Apri Opzioni sviluppatore</string>
+    <!-- Followed by setup_developer_link, which ends the sentence as a tappable link. -->
+    <string name="setup_developer_hint">Non hai le Opzioni sviluppatore? Prima attivale: tocca sette volte «Numero build» in</string>
+    <string name="setup_developer_link">Impostazioni › Informazioni sul telefono</string>
+    <string name="setup_permissions_both">Due autorizzazioni facoltative migliorano l’esperienza. Le notifiche mostrano il conto alla rovescia. L’accesso alla posizione permette a Google Play Services di tenere stabile il punto scelto in app come Google Maps: Altrove non legge mai la tua posizione reale.</string>
+    <string name="setup_permissions_notifications">Facoltativo: consenti le notifiche per vedere il conto alla rovescia e fermare la sessione da qualsiasi schermata.</string>
+    <string name="setup_permissions_location">Facoltativo: consenti l’accesso alla posizione, così Google Play Services tiene stabile il punto scelto in app come Google Maps. Altrove non legge mai la tua posizione reale.</string>
+    <string name="setup_permissions_action">Consenti</string>
+    <string name="setup_permissions_skip">Non ora</string>
+
+    <!-- Session -->
+    <string name="status_idle_title">Posizione reale</string>
+    <string name="status_idle_body">Tocca il widget nella schermata Home per trovarti a destinazione per 5 minuti.</string>
+    <string name="status_idle_body_no_destination">Prima salva una destinazione.</string>
+    <string name="status_idle_body_setup">Prima completa la configurazione qui sopra.</string>
+    <string name="status_active_title">Sei altrove</string>
+    <string name="status_active_body">A %1$s. La posizione reale torna da sola.</string>
+    <string name="start">Avvia</string>
+    <string name="stop">Ferma</string>
+
+    <string name="add_widget">Aggiungi il widget alla schermata Home</string>
+    <string name="footnote">Altrove usa la funzione ufficiale di Android per le posizioni fittizie. Le app che controllano se una posizione è simulata possono comunque accorgersene.</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Tocca per spostare la posizione GPS sulla destinazione salvata per 5 minuti.</string>
+    <string name="widget_setup">Tocca per configurare</string>
+    <string name="widget_idle_description">Altrove. Tocca per trovarti a %1$s per 5 minuti.</string>
+    <string name="widget_setup_description">Altrove. Tocca per completare la configurazione.</string>
+    <string name="widget_active_description">Altrove è attivo. Tocca per tornare alla posizione reale.</string>
+
+    <!-- Notification -->
+    <string name="notification_channel">Sessione attiva</string>
+    <string name="notification_channel_description">Visibile mentre la tua posizione è spostata altrove.</string>
+    <string name="notification_title">Sei altrove</string>
+    <string name="notification_text">%1$s · la posizione reale torna allo scadere del timer</string>
+
+    <string name="toast_not_mock_app">Prima scegli Altrove come app di posizione fittizia</string>
+    <string name="toast_no_destination">Prima salva una destinazione in Altrove</string>
+</resources>

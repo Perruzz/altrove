@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting state: a tinted surface showing where a tap will take you. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_idle"
+    android:clipToOutline="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingEnd="8dp"
+    tools:targetApi="s">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/widget_icon_bg_idle"
+        android:importantForAccessibility="no"
+        android:padding="9dp"
+        android:src="@drawable/ic_pin"
+        android:tint="@color/widget_idle_icon" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_title"
+            style="@style/Widget.Altrove.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/widget_idle_title" />
+
+        <TextView
+            android:id="@+id/widget_subtitle"
+            style="@style/Widget.Altrove.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_sample_destination"
+            android:textColor="@color/widget_idle_subtitle" />
+    </LinearLayout>
+</LinearLayout>
