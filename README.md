@@ -6,7 +6,7 @@
 
 <p align="center">
   <em>Be somewhere else, five minutes at a time.</em><br>
-  An Android home-screen widget that moves your GPS position to a spot you choose,<br>
+  An Android home-screen widget that moves your GPS position to a spot you choose
   for exactly five minutes, then puts the real one back on its own.
 </p>
 
