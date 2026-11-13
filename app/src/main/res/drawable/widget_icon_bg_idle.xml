@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- The same violet as the launcher icon. -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="oval">
-    <solid android:color="@color/widget_idle_icon_background" />
+    <gradient
+        android:angle="315"
+        android:endColor="@color/widget_idle_icon_bottom"
+        android:startColor="@color/widget_idle_icon_top" />
 </shape>

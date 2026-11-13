@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Static indigo palette, used before Android 12. Newer versions follow the wallpaper (values-v31). -->
+<!--
+    The night sky of the app and of its widget. Space looks the same in light and dark theme,
+    so there are no -night or -v31 variants of these colours.
+-->
 <resources>
-    <color name="window_background">#FCF8FF</color>
+    <!-- Window and splash background, under the Compose sky. -->
+    <color name="space_background">#070718</color>
 
-    <color name="widget_idle_background">#F2EFFA</color>
-    <color name="widget_idle_icon_background">#4A55B9</color>
+    <!-- Widget at rest: deep indigo with a violet glow in one corner. -->
+    <color name="widget_idle_top">#241D66</color>
+    <color name="widget_idle_bottom">#0B0B28</color>
+    <color name="widget_idle_glow">#705B3DF5</color>
+    <color name="widget_idle_edge">#38C6BDFF</color>
+    <color name="widget_idle_icon_top">#9D8FFF</color>
+    <color name="widget_idle_icon_bottom">#4A3DD6</color>
     <color name="widget_idle_icon">#FFFFFF</color>
-    <color name="widget_idle_title">#1B1B21</color>
-    <color name="widget_idle_subtitle">#46464F</color>
+    <color name="widget_idle_title">#FFFFFF</color>
+    <color name="widget_idle_subtitle">#C6BDFF</color>
 
-    <color name="widget_active_background">#4A55B9</color>
-    <color name="widget_active_icon_background">#DFE0FF</color>
-    <color name="widget_active_icon">#313C9F</color>
+    <!-- Widget during a session: the magenta of "elsewhere", as in the app. -->
+    <color name="widget_active_top">#7C2379</color>
+    <color name="widget_active_bottom">#2A1B6E</color>
+    <color name="widget_active_glow">#80FF6FB5</color>
+    <color name="widget_active_edge">#55FFB3D9</color>
+    <color name="widget_active_icon_background">#FFF2F8</color>
+    <color name="widget_active_icon">#C2318B</color>
     <color name="widget_active_title">#FFFFFF</color>
-    <color name="widget_active_subtitle">#DFE0FF</color>
+    <color name="widget_active_subtitle">#FFD0E8</color>
 
-    <color name="widget_ripple">#29000000</color>
+    <color name="widget_ripple">#33FFFFFF</color>
 </resources>

@@ -13,6 +13,9 @@ val keystoreProperties = Properties().apply {
 }
 
 android {
+    // The sources live in java/app/Altrove, capitalised like the app. The Kotlin package and
+    // the namespace stay lowercase, as Android expects: renaming them would also rename the
+    // widget's component and drop every widget already placed on a home screen.
     namespace = "app.altrove"
     compileSdk = 37
 
@@ -20,8 +23,8 @@ android {
         applicationId = "app.altrove"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
     }
 
     signingConfigs {

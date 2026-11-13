@@ -11,7 +11,8 @@
     <string name="longitude_example" translatable="false">12.4922</string>
     <string name="latitude_error">A number between −90 and 90</string>
     <string name="longitude_error">A number between −180 and 180</string>
-    <string name="destination_tip">Tip: paste a pair like “41.8902, 12.4922” into either field.</string>
+    <string name="destination_tip">Tap the globe to pick a place, or paste a pair like “41.8902, 12.4922”.</string>
+    <string name="globe_description">The Earth, turned towards the destination. Tap it to pick a place, drag sideways to spin it.</string>
     <string name="save">Save</string>
     <string name="saved">Saved</string>
 

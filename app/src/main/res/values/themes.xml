@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- The UI is Compose; this only styles the window before the first frame. -->
-    <style name="Theme.Altrove" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:windowBackground">@color/window_background</item>
+    <!--
+        The UI is Compose; this only styles the window before the first frame. The app is a
+        night sky whatever the system theme, so there is a single, dark variant.
+    -->
+    <style name="Theme.Altrove" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/space_background</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>

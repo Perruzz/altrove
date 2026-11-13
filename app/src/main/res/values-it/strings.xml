@@ -8,7 +8,8 @@
     <string name="longitude">Longitudine</string>
     <string name="latitude_error">Un numero tra −90 e 90</string>
     <string name="longitude_error">Un numero tra −180 e 180</string>
-    <string name="destination_tip">Suggerimento: incolla una coppia come «41.8902, 12.4922» in uno dei due campi.</string>
+    <string name="destination_tip">Tocca il globo per scegliere un punto, oppure incolla una coppia come «41.8902, 12.4922».</string>
+    <string name="globe_description">La Terra, rivolta verso la destinazione. Toccala per scegliere un punto, trascina di lato per farla ruotare.</string>
     <string name="save">Salva</string>
     <string name="saved">Salvato</string>
 

@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- The widget during a session: the same sky, warmed to the magenta of "elsewhere". -->
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="@color/widget_ripple">
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/widget_radius" />
-            <solid android:color="@color/widget_active_background" />
+            <gradient
+                android:angle="315"
+                android:endColor="@color/widget_active_bottom"
+                android:startColor="@color/widget_active_top" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/widget_radius" />
+            <gradient
+                android:centerX="0.95"
+                android:centerY="0.0"
+                android:endColor="@android:color/transparent"
+                android:gradientRadius="120%"
+                android:startColor="@color/widget_active_glow"
+                android:type="radial" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/widget_stars" />
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/widget_radius" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/widget_active_edge" />
         </shape>
     </item>
 </ripple>
